@@ -2,24 +2,28 @@
 // Peter Daudelin - 2025-10-02 
 // IT202-005 Phase 1 Assignment: Login and Logout
 // pd475@njit.edu
+
 if (!isset($_SESSION['login'])) {
 ?>
   <h2>Please log in to Fidget Store Inventory Helper</h2><br>
   <form name="login" action="index.php" method="post">
     <label>Email:</label>
     <input type="text" name="emailAddress" size="20">
-    <br>
-    <br>
+    <br><br>
     <label>Password:</label>
     <input type="password" name="password" size="20">
-    <br>
-    <br>
+    <br><br>
     <input type="submit" value="Login">
     <input type="hidden" name="content" value="validate">
   </form>
-  <?php
+<?php
 } else {
-   echo "<h2>Welcome to Fidget Store Inventory Helper, {$_SESSION['firstName']} {$_SESSION['lastName']} ({$_SESSION['pronouns']})</h2>";
+   // Safely check session values
+   $firstName = isset($_SESSION['firstName']) ? $_SESSION['firstName'] : '';
+   $lastName = isset($_SESSION['lastName']) ? $_SESSION['lastName'] : '';
+   $pronouns = isset($_SESSION['pronouns']) ? $_SESSION['pronouns'] : '';
+
+   echo "<h2>Welcome to Fidget Store Inventory Helper, $firstName $lastName ($pronouns)</h2>";
 ?>
    <br><br>
    <p>This program tracks category and item inventory</p>

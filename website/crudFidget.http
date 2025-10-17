@@ -1,0 +1,203 @@
+### ADD FIDGETS (Items)
+# Category: Fidget Spinners (FidgetTypeID = 201)
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=1
+&FidgetCode=SP001
+&FidgetName=Galaxy Spinner
+&FidgetDescription=A lightweight spinner with a mesmerizing galaxy design. Spins smoothly for up to three minutes and provides great stress relief.
+&FidgetMaterial=Aluminum Alloy
+&FidgetColor=Purple-Blue
+&FidgetTypeID=201
+&FidgetWholesalePrice=4.50
+&FidgetListPrice=8.99
+###
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=2
+&FidgetCode=SP002
+&FidgetName=Glow Spinner
+&FidgetDescription=This spinner glows brightly in the dark. It’s perfect for night use and helps increase focus and relaxation.
+&FidgetMaterial=Plastic
+&FidgetColor=Green
+&FidgetTypeID=201
+&FidgetWholesalePrice=3.00
+&FidgetListPrice=6.99
+###
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=3
+&FidgetCode=SP003
+&FidgetName=Metal Infinity Spinner
+&FidgetDescription=Made with stainless steel for durability. Its balanced weight gives it a smooth and stable spin for long periods.
+&FidgetMaterial=Stainless Steel
+&FidgetColor=Silver
+&FidgetTypeID=201
+&FidgetWholesalePrice=5.50
+&FidgetListPrice=11.99
+###
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=4
+&FidgetCode=SP004
+&FidgetName=Rainbow Spinner
+&FidgetDescription=Colorful rainbow coating with a silent bearing. Great for reducing anxiety during work or study sessions.
+&FidgetMaterial=Zinc Alloy
+&FidgetColor=Rainbow
+&FidgetTypeID=201
+&FidgetWholesalePrice=4.75
+&FidgetListPrice=9.50
+###
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=5
+&FidgetCode=SP005
+&FidgetName=Classic Spinner
+&FidgetDescription=A simple and durable design with smooth edges. Ideal for everyday stress relief and focus improvement.
+&FidgetMaterial=ABS Plastic
+&FidgetColor=Black
+&FidgetTypeID=201
+&FidgetWholesalePrice=2.75
+&FidgetListPrice=5.99
+
+###
+# Category: Fidget Cubes (FidgetTypeID = 202)
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=6
+&FidgetCode=FC001
+&FidgetName=Classic Fidget Cube
+&FidgetDescription=Features six sides with buttons, switches, and rollers for sensory stimulation. Helps reduce anxiety and increase focus.
+&FidgetMaterial=Plastic
+&FidgetColor=Gray
+&FidgetTypeID=202
+&FidgetWholesalePrice=4.00
+&FidgetListPrice=8.99
+###
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=7
+&FidgetCode=FC002
+&FidgetName=Retro Fidget Cube
+&FidgetDescription=Inspired by classic designs, this cube includes tactile surfaces for endless play. Excellent for relieving tension during work.
+&FidgetMaterial=ABS Plastic
+&FidgetColor=Blue
+&FidgetTypeID=202
+&FidgetWholesalePrice=4.25
+&FidgetListPrice=9.50
+###
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=8
+&FidgetCode=FC003
+&FidgetName=Mini Travel Cube
+&FidgetDescription=Compact and portable for on-the-go use. It fits easily in your pocket and keeps your hands busy while reducing stress.
+&FidgetMaterial=Plastic
+&FidgetColor=White
+&FidgetTypeID=202
+&FidgetWholesalePrice=3.50
+&FidgetListPrice=7.99
+###
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=9
+&FidgetCode=FC004
+&FidgetName=Pro Gamer Cube
+&FidgetDescription=Designed for gamers with tactile buttons and smooth triggers. Improves focus and coordination during long gaming sessions.
+&FidgetMaterial=Plastic
+&FidgetColor=Black-Red
+&FidgetTypeID=202
+&FidgetWholesalePrice=5.00
+&FidgetListPrice=10.99
+###
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=10
+&FidgetCode=FC005
+&FidgetName=Color Shift Cube
+&FidgetDescription=Changes color with heat and light exposure. Provides a unique sensory experience that keeps your hands and mind engaged.
+&FidgetMaterial=Silicone
+&FidgetColor=Color-Changing
+&FidgetTypeID=202
+&FidgetWholesalePrice=5.25
+&FidgetListPrice=11.50
+
+###
+# Category: Stress Balls (FidgetTypeID = 203)
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=11
+&FidgetCode=SB001
+&FidgetName=Gel Stress Ball
+&FidgetDescription=Filled with soft gel for a satisfying squeeze. Strengthens hand muscles and relieves tension instantly.
+&FidgetMaterial=Gel Rubber
+&FidgetColor=Blue
+&FidgetTypeID=203
+&FidgetWholesalePrice=2.00
+&FidgetListPrice=4.99
+###
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=12
+&FidgetCode=SB002
+&FidgetName=Aromatherapy Ball
+&FidgetDescription=Infused with lavender scent for calming effects. Ideal for relieving stress and promoting relaxation at home or work.
+&FidgetMaterial=Silicone
+&FidgetColor=Purple
+&FidgetTypeID=203
+&FidgetWholesalePrice=3.50
+&FidgetListPrice=7.99
+###
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=13
+&FidgetCode=SB003
+&FidgetName=Spiky Stress Ball
+&FidgetDescription=Features soft spikes that gently massage the hand. Improves blood circulation and helps reduce anxiety.
+&FidgetMaterial=Rubber
+&FidgetColor=Yellow
+&FidgetTypeID=203
+&FidgetWholesalePrice=2.50
+&FidgetListPrice=5.99
+###
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=14
+&FidgetCode=SB004
+&FidgetName=Marble Mesh Ball
+&FidgetDescription=A unique stress ball with a marble inside a mesh exterior. Encourages rhythmic squeezing to enhance focus and calmness.
+&FidgetMaterial=Mesh Rubber
+&FidgetColor=Green
+&FidgetTypeID=203
+&FidgetWholesalePrice=3.25
+&FidgetListPrice=6.99
+###
+POST http://localhost:3000/addfidget.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetID=15
+&FidgetCode=SB005
+&FidgetName=Heavy-Duty Stress Ball
+&FidgetDescription=Built for long-lasting use with durable silicone material. Provides firm resistance for muscle training and relaxation.
+&FidgetMaterial=Silicone
+&FidgetColor=Red
+&FidgetTypeID=203
+&FidgetWholesalePrice=4.00
+&FidgetListPrice=8.99
+
+### LIST ALL FIDGETS
+GET http://localhost:3000/listfidgets.test.php

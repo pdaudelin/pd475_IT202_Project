@@ -1,0 +1,43 @@
+###
+POST http://localhost:3000/addfidgettype.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetTypeID=201
+&FidgetTypeCode=SPNR
+&FidgetTypeName=Fidget Spinner
+&FidgetShelfNumber=1
+###
+POST http://localhost:3000/addfidgettype.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetTypeID=202
+&FidgetTypeCode=CUBE
+&FidgetTypeName=Fidget Cube
+&FidgetShelfNumber=2
+###
+POST http://localhost:3000/addfidgettype.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetTypeID=203
+&FidgetTypeCode=BALL
+&FidgetTypeName=Stress Ball
+&FidgetShelfNumber=3
+
+###
+GET http://localhost:3000/listfidgetypes.test.php
+
+###
+POST http://localhost:3000/changefidgettype.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetTypeID=203
+&FidgetTypeCode=BALL
+&FidgetTypeName=Therapy Stress Ball
+&FidgetShelfNumber=3
+
+###
+POST http://localhost:3000/removefidgettype.test.php
+Content-Type: application/x-www-form-urlencoded
+
+FidgetTypeID=203
+
