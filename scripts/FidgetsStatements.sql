@@ -1,3 +1,4 @@
+-- Peter Daudelin 2025-10-17 IT202-005 Phase 2 pd475@njit.edu
 -- Items Table
 CREATE TABLE Fidgets (
 FidgetID               INT(11)        NOT NULL,

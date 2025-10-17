@@ -1,5 +1,5 @@
+-- Peter Daudelin 2025-10-17 IT202-005 Phase 2 pd475@njit.edu
 -- Categories Table
-
 CREATE TABLE FidgetTypes (
 FidgetTypeID       INT(11)        NOT NULL,
 FidgetTypeCode     VARCHAR(255)   NOT NULL   UNIQUE,

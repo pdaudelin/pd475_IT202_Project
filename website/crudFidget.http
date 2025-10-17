@@ -1,3 +1,4 @@
+# Peter Daudelin 2025-10-17 IT202-005 Phase 2 pd475@njit.edu
 ### ADD FIDGETS (Items)
 # Category: Fidget Spinners (FidgetTypeID = 201)
 POST http://localhost:3000/addfidget.test.php

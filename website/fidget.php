@@ -1,4 +1,5 @@
 <?php
+# Peter Daudelin 2025-10-17 IT202-005 Phase 2 pd475@njit.edu
 require_once('database.php');
 
 class Fidget
