@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: sql1.njit.edu
--- Generation Time: Oct 17, 2025 at 01:50 PM
+-- Generation Time: Nov 01, 2025 at 03:43 AM
 -- Server version: 8.0.17
 -- PHP Version: 7.4.8
 
@@ -42,7 +42,9 @@ CREATE TABLE IF NOT EXISTS `FidgetTypes` (
 INSERT INTO `FidgetTypes` (`FidgetTypeID`, `FidgetTypeCode`, `FidgetTypeName`, `FidgetShelfNumber`, `DateTimeCreated`, `DateTimeUpdated`) VALUES
 (201, 'SPNR', 'Fidget Spinner', 1, '2025-10-17 04:48:02', '2025-10-17 04:48:02'),
 (202, 'CUBE', 'Fidget Cube', 2, '2025-10-17 04:48:05', '2025-10-17 04:48:05'),
-(203, 'BALL', 'Therapy Stress Ball', 3, '2025-10-17 04:48:07', '2025-10-17 04:49:05');
+(203, 'BALL', 'Therapy Stress Ball', 3, '2025-10-17 04:48:07', '2025-10-17 04:49:05'),
+(204, 'SLNK', 'Slinky', 4, '2025-11-01 01:25:45', '2025-11-01 01:25:45'),
+(205, 'SLME', 'Slime', 5, '2025-11-01 03:07:16', '2025-11-01 03:07:16');
 
 --
 -- Indexes for dumped tables

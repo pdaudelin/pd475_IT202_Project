@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: sql1.njit.edu
--- Generation Time: Oct 17, 2025 at 01:51 PM
+-- Generation Time: Nov 01, 2025 at 03:43 AM
 -- Server version: 8.0.17
 -- PHP Version: 7.4.8
 
@@ -57,9 +57,10 @@ INSERT INTO `Fidgets` (`FidgetID`, `FidgetCode`, `FidgetName`, `FidgetDescriptio
 (10, 'FC005', 'Color Shift Cube', 'Changes color with heat and light exposure. Provides a unique sensory experience that keeps your hands and mind engaged.', 'Silicone', 'Color-Changing', 202, 5.25, 11.50, '2025-10-17 05:04:24', '2025-10-17 05:04:24'),
 (11, 'SB001', 'Gel Stress Ball', 'Filled with soft gel for a satisfying squeeze. Strengthens hand muscles and relieves tension instantly.', 'Gel Rubber', 'Blue', 203, 2.00, 4.99, '2025-10-17 05:04:28', '2025-10-17 05:04:28'),
 (12, 'SB002', 'Aromatherapy Ball', 'Infused with lavender scent for calming effects. Ideal for relieving stress and promoting relaxation at home or work.', 'Silicone', 'Purple', 203, 3.50, 7.99, '2025-10-17 05:04:30', '2025-10-17 05:04:30'),
-(13, 'SB003', 'Spiky Stress Ball', 'Features soft spikes that gently massage the hand. Improves blood circulation and helps reduce anxiety.', 'Rubber', 'Yellow', 203, 2.50, 5.99, '2025-10-17 05:04:32', '2025-10-17 05:04:32'),
+(13, 'SB003', 'Spiky Stress Ball', 'Features soft spikes that gently massage the hand. Improves blood circulation and helps reduce anxiety.', 'Rubber', 'Yellow', 203, 1.00, 5.99, '2025-10-17 05:04:32', '2025-11-01 03:32:40'),
 (14, 'SB004', 'Marble Mesh Ball', 'A unique stress ball with a marble inside a mesh exterior. Encourages rhythmic squeezing to enhance focus and calmness.', 'Mesh Rubber', 'Green', 203, 3.25, 6.99, '2025-10-17 05:04:34', '2025-10-17 05:04:34'),
-(15, 'SB005', 'Heavy-Duty Stress Ball', 'Built for long-lasting use with durable silicone material. Provides firm resistance for muscle training and relaxation.', 'Silicone', 'Red', 203, 4.00, 8.99, '2025-10-17 05:04:36', '2025-10-17 05:04:36');
+(15, 'SB005', 'Heavy-Duty Stress Ball', 'Built for long-lasting use with durable silicone material. Provides firm resistance for muscle training and relaxation.', 'Silicone', 'Red', 203, 4.00, 8.99, '2025-10-17 05:04:36', '2025-10-17 05:04:36'),
+(205, 'PLD', 'Play-Dough', 'Malleable compound that can be modeled or massaged. Can also be used as a stress reliever', 'Malleable', 'Red', 205, 1.99, 3.99, '2025-11-01 03:28:35', '2025-11-01 03:28:35');
 
 --
 -- Indexes for dumped tables

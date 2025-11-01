@@ -1,9 +1,21 @@
 <?php
-# Peter Daudelin 2025-10-17 IT202-005 Phase 2 pd475@njit.edu
+# Peter Daudelin 2025-10-30 IT202-005 Phase 3 pd475@njit.edu
 require_once("fidget.php");
-session_start(); // make sure session is started
+session_start();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+    // 1. Check if user canceled
+    if (isset($_POST['cancel'])) {
+        echo "<h2>Update canceled — no changes made.</h2>";
+        exit;
+    }
+
+    // 2. Check if user is logged in
+    if (!isset($_SESSION['login'])) {
+        echo "<h2>Error: You must be logged in to update a fidget.</h2>";
+        exit;
+    }
 
     $FidgetID = $_POST['FidgetID'] ?? '';
 
@@ -12,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 
-    // Find the existing fidget
+    // 3. Find the existing fidget
     $fidget = Fidget::findFidget($FidgetID);
 
     if (!$fidget) {
@@ -20,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 
-    // Safely assign all POST fields, defaulting if missing
+    // 4. Assign updated values
     $fidget->FidgetCode = $_POST['FidgetCode'] ?? $fidget->FidgetCode;
     $fidget->FidgetName = $_POST['FidgetName'] ?? $fidget->FidgetName;
     $fidget->FidgetDescription = $_POST['FidgetDescription'] ?? $fidget->FidgetDescription;
@@ -30,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $fidget->FidgetWholesalePrice = $_POST['FidgetWholesalePrice'] ?? $fidget->FidgetWholesalePrice;
     $fidget->FidgetListPrice = $_POST['FidgetListPrice'] ?? $fidget->FidgetListPrice;
 
-    // Update the fidget
+    // 5. Perform update
     $result = $fidget->updateFidget();
 
     if ($result) {
