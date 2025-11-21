@@ -1,7 +1,5 @@
 <?php
 # Peter Daudelin 2025-10-30 IT202-005 Phase 3 pd475@njit.edu
-include("header.inc.php");
-include("nav.inc.php");
 
 require_once("fidgettype.php");
 require_once("fidget.php");

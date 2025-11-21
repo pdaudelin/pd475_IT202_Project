@@ -3,9 +3,6 @@ if (isset($_SESSION['login'])) {
 ?>
   <div class="navigation" style="float: left; height: 100%; min-width: 175px; width: auto;">
     <table width="100%" cellpadding="3">
-      <?php
-      echo "<td><h3>Welcome, {$_SESSION['login']}</h3></td>";
-      ?>
       <tr>
         <td><!--<img src="images/home.png" alt="Home Icon" width="12" height="12">&nbsp;-->
           <a href="index.php"><strong>Home</strong></a>

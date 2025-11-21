@@ -6,7 +6,12 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html>
-<head><title>Inventory Helper</title></head>
+<head>
+    <title>Fidget Store Inventory Helper</title>
+    <link rel="stylesheet" type="text/css" href="ih_styles.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
 <body>
    <?php include("header.inc.php"); ?>
    <?php include("nav.inc.php"); ?>

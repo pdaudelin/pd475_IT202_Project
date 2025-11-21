@@ -1,0 +1,140 @@
+body {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 80%;
+    background-color: #8dadf1;
+    color: #BF0413;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+ }
+ 
+ main {
+    padding: 5px;
+    border-top: 3px solid #eef0d5;
+    float: left;
+    width: 55%;
+    height: 100%;
+ }
+ 
+ main table {
+    padding: 2px;
+ }
+ 
+ main td {
+    padding: 2px;
+ }
+
+ h1, h2, h3, h4 {
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 350%;
+    color: #BF0413;
+    
+ }
+ 
+ h2 {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 180%;
+    color: #BF0413;
+ }
+ 
+ h3 {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    color: white;
+ }
+ 
+ h4 {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    color: #ffffff;
+ }
+ 
+ header {
+    padding: 5px;
+    border-bottom: 3px solid #eef0d5;
+    height: 40px;
+    width: 100%;
+ }
+ 
+ .navigation {
+    padding: 5px;
+    border-bottom: 1px solid #eef0d5;
+    border-right: 1px solid #eef0d5;
+    border-top: 1px solid #eef0d5;
+    border-left: 5px solid #eef0d5;
+    color: white;
+    background-color: #F2055C;
+    width: 20%;
+ }
+
+ a, a:link {
+    color: #3d04d9;
+ }
+   
+   a:active {
+    color: #04C4D9;
+   }
+   
+   nav a, nav a:link {
+    color: #67b5bd;
+    text-decoration: none;
+   }
+   
+   nav a:visited {
+    color: #c59ad1;
+   }
+   
+   nav a:hover {
+    color: #1ffff0;
+   }
+   
+   nav a:active {
+    color: #32ff9f;
+   }
+
+ footer {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 80%;
+    background-color: #BF0413;
+    color: white;
+    padding: 5px;
+    border-top: 3px solid #eef0d5;
+    border-bottom: 3px solid #eef0d5;
+    clear: both;
+    text-align: center;
+    width: 100%;
+ }
+
+ input {
+    border: 2px solid #A66C4B;
+    background-color: white;
+    color: #BF0413;
+    border-radius: 5px;
+   }
+   
+   input[type=submit] {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 80%;
+   }
+   
+   input:required:invalid {
+    border-color: #F2055C;
+    background-color: #fbd79c;
+   }
+   
+   input:required:valid {
+    border-color: #c59ad1;
+    background-color: #eef0d5;
+   }
+   
+   input:focus {
+    outline: none;
+    border-color: #F27405;
+    background-color: #f1b16f;
+    box-shadow: 0 0 5px #F27405;
+   }

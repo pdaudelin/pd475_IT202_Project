@@ -1,6 +1,6 @@
 <style>
   .header-div {
-       background-color: #ca7834;
+       background-color: #F27405;
        padding: 2px;
        display: flex;
        align-items: center;
@@ -17,9 +17,9 @@
   }
 </style>
 <div class="header-div">
-  <!--<img src="images/logo.png" alt=" Shop Logo">-->
+  <img src="images/favicon.png" alt=" Shop Logo">
   <div>
-      <h1>Frankie's Fidget Funhouse</h1>
+      <h1>Franklin's Fidget Funhouse</h1>
       <h2>Inventory Management</h2>
   </div>
 </div>
