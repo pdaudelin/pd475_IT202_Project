@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: sql1.njit.edu
--- Generation Time: Nov 01, 2025 at 03:43 AM
+-- Generation Time: Nov 21, 2025 at 11:50 PM
 -- Server version: 8.0.17
 -- PHP Version: 7.4.8
 
@@ -48,7 +48,7 @@ INSERT INTO `Fidgets` (`FidgetID`, `FidgetCode`, `FidgetName`, `FidgetDescriptio
 (1, 'SP001', 'Galaxy Spinner', 'A lightweight spinner with a mesmerizing galaxy design. Spins smoothly for up to three minutes and provides great stress relief.', 'Aluminum Alloy', 'Purple-Blue', 201, 4.50, 8.99, '2025-10-17 04:49:13', '2025-10-17 04:49:13'),
 (2, 'SP002', 'Glow Spinner', 'This spinner glows brightly in the dark. It’s perfect for night use and helps increase focus and relaxation.', 'Plastic', 'Green', 201, 3.00, 6.99, '2025-10-17 04:49:17', '2025-10-17 04:49:17'),
 (3, 'SP003', 'Metal Infinity Spinner', 'Made with stainless steel for durability. Its balanced weight gives it a smooth and stable spin for long periods.', 'Stainless Steel', 'Silver', 201, 5.50, 11.99, '2025-10-17 04:49:19', '2025-10-17 04:49:19'),
-(4, 'SP004', 'Rainbow Spinner', 'Colorful rainbow coating with a silent bearing. Great for reducing anxiety during work or study sessions.', 'Zinc Alloy', 'Rainbow', 201, 4.75, 9.50, '2025-10-17 04:49:21', '2025-10-17 04:49:21'),
+(4, 'SP004', 'Rainbow Spinner', 'Colorful rainbow coating with a silent bearing. Great for reducing anxiety during study sessions.', 'Zinc Alloy', 'Rainbow', 201, 4.75, 9.50, '2025-10-17 04:49:21', '2025-11-21 23:22:20'),
 (5, 'SP005', 'Classic Spinner', 'A simple and durable design with smooth edges. Ideal for everyday stress relief and focus improvement.', 'ABS Plastic', 'Black', 201, 2.75, 5.99, '2025-10-17 05:03:58', '2025-10-17 05:03:58'),
 (6, 'FC001', 'Classic Fidget Cube', 'Features six sides with buttons, switches, and rollers for sensory stimulation. Helps reduce anxiety and increase focus.', 'Plastic', 'Gray', 202, 4.00, 8.99, '2025-10-17 05:04:02', '2025-10-17 05:04:02'),
 (7, 'FC002', 'Retro Fidget Cube', 'Inspired by classic designs, this cube includes tactile surfaces for endless play. Excellent for relieving tension during work.', 'ABS Plastic', 'Blue', 202, 4.25, 9.50, '2025-10-17 05:04:07', '2025-10-17 05:04:07'),
@@ -58,9 +58,10 @@ INSERT INTO `Fidgets` (`FidgetID`, `FidgetCode`, `FidgetName`, `FidgetDescriptio
 (11, 'SB001', 'Gel Stress Ball', 'Filled with soft gel for a satisfying squeeze. Strengthens hand muscles and relieves tension instantly.', 'Gel Rubber', 'Blue', 203, 2.00, 4.99, '2025-10-17 05:04:28', '2025-10-17 05:04:28'),
 (12, 'SB002', 'Aromatherapy Ball', 'Infused with lavender scent for calming effects. Ideal for relieving stress and promoting relaxation at home or work.', 'Silicone', 'Purple', 203, 3.50, 7.99, '2025-10-17 05:04:30', '2025-10-17 05:04:30'),
 (13, 'SB003', 'Spiky Stress Ball', 'Features soft spikes that gently massage the hand. Improves blood circulation and helps reduce anxiety.', 'Rubber', 'Yellow', 203, 1.00, 5.99, '2025-10-17 05:04:32', '2025-11-01 03:32:40'),
-(14, 'SB004', 'Marble Mesh Ball', 'A unique stress ball with a marble inside a mesh exterior. Encourages rhythmic squeezing to enhance focus and calmness.', 'Mesh Rubber', 'Green', 203, 3.25, 6.99, '2025-10-17 05:04:34', '2025-10-17 05:04:34'),
-(15, 'SB005', 'Heavy-Duty Stress Ball', 'Built for long-lasting use with durable silicone material. Provides firm resistance for muscle training and relaxation.', 'Silicone', 'Red', 203, 4.00, 8.99, '2025-10-17 05:04:36', '2025-10-17 05:04:36'),
-(205, 'PLD', 'Play-Dough', 'Malleable compound that can be modeled or massaged. Can also be used as a stress reliever', 'Malleable', 'Red', 205, 1.99, 3.99, '2025-11-01 03:28:35', '2025-11-01 03:28:35');
+(14, 'SB004', 'Marble Mesh Ball', 'A unique stress ball with a marble inside a mesh exterior. Encourages rhythmic squeezing to enhance focus and calmness.', 'Mesh Rubber', 'Green', 203, 3.25, 6.99, '2025-10-17 05:04:34', '2025-11-21 19:44:47'),
+(15, 'SB005', 'Heavy-Duty Stress Ball', 'Built for long-lasting use with durable silicone material. Provides firm resistance for muscle training and relaxation.', 'Nylon', 'Red', 203, 4.00, 8.99, '2025-10-17 05:04:36', '2025-11-21 23:40:36'),
+(16, 'PLY', 'Play-Dough', 'Soft material. Malleable and satisfying.', 'Malleable', 'Yellow', 205, 2.99, 4.99, '2025-11-17 19:18:53', '2025-11-17 19:18:53'),
+(19, 'SQR05', 'Soft square', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis erat et massa commodo viverra ut in enim. Suspendisse potenti. Fusce vestibulum facilisis varius. Phasellus vestibulum, nibh a congue vestibulum, metus lectus venenatis elit, pulvinar eges', 'Rubber', 'Pale green', 201, 3.99, 5.99, '2025-11-21 23:32:24', '2025-11-21 23:32:24');
 
 --
 -- Indexes for dumped tables

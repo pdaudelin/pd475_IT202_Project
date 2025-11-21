@@ -34,6 +34,10 @@ session_start();
            ?>
        </main>
    </section>
-
-   <?php include("footer.inc.php"); ?>  </body>
+</body>
+<footer>
+   <?php 
+        include("footer.inc.php"); 
+   ?>  
+</footer>
 </html>
