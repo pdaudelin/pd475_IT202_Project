@@ -205,5 +205,44 @@ class Fidget
             return NULL;
         }
     }
+
+    public static function getFidgetCount() {
+        $db = getDB();
+        $query = "SELECT COUNT(*) AS cnt FROM Fidgets"; // replace with your actual table name
+        if ($stmt = $db->prepare($query)) {
+            $stmt->execute();
+            $stmt->bind_result($cnt);
+            $stmt->fetch();
+            $stmt->close();
+            return (int)$cnt;
+        }
+        return 0;
+    }
+    
+    public static function getWholesaleTotal() {
+        $db = getDB();
+        $query = "SELECT SUM(FidgetWholesalePrice) AS total FROM Fidgets"; // field/table names may vary
+        if ($stmt = $db->prepare($query)) {
+            $stmt->execute();
+            $stmt->bind_result($total);
+            $stmt->fetch();
+            $stmt->close();
+            return (float)($total ?? 0.0);
+        }
+        return 0.0;
+    }
+    
+    public static function getListTotal() {
+        $db = getDB();
+        $query = "SELECT SUM(FidgetListPrice) AS total FROM Fidgets";
+        if ($stmt = $db->prepare($query)) {
+            $stmt->execute();
+            $stmt->bind_result($total);
+            $stmt->fetch();
+            $stmt->close();
+            return (float)($total ?? 0.0);
+        }
+        return 0.0;
+    }    
 }
 ?>

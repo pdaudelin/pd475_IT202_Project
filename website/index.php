@@ -8,9 +8,10 @@ session_start();
 <html>
 <head>
     <title>Fidget Store Inventory Helper</title>
-    <link rel="stylesheet" type="text/css" href="ih_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="realtime.js"></script>
 </head>
 <body>
    <?php include("header.inc.php"); ?>
@@ -34,6 +35,13 @@ session_start();
            ?>
        </main>
    </section>
+   <aside>
+    <?php include("aside.inc.php"); ?>
+</aside>
+    <script>
+         getRealTime();
+         setInterval(getRealTime, 3000);
+    </script>
 </body>
 <footer>
    <?php 

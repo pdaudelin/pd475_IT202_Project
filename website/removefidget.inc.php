@@ -1,7 +1,7 @@
 <?php
 # Peter Daudelin 2025-10-17 IT202-005 Phase 2 pd475@njit.edu
 require_once("fidget.php");
-
+if (isset($_SESSION['login'])) {
 $FidgetID = $_POST['FidgetID'];
 $fidget = Fidget::findFidget($FidgetID);
 
@@ -16,4 +16,7 @@ if ($fidget) {
 } else {
     echo "<h2>Fidget #$FidgetID not found.</h2>\n";
 }
-?>
+} else {
+    echo "<h2>Please log in first.</h2>\n";
+ }
+ ?>

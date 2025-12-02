@@ -2,7 +2,7 @@
 # Peter Daudelin 2025-10-17 IT202-005 Phase 2 pd475@njit.edu
 error_log("\$_POST " . print_r($_POST, true));
 require_once("fidgettype.php");
-
+if(isset($_SESSION['login'])) {
 $FidgetTypeID = $_POST['FidgetTypeID'];
 
 // Find the Fidget Type to delete
@@ -16,5 +16,8 @@ if ($fidgetType != NULL) {
         echo "<h2>Sorry, there was a problem removing Fidget Type #$FidgetTypeID.</h2>\n";
 } else {
     echo "<h2>Fidget Type #$FidgetTypeID not found.</h2>\n";
+}
+} else {
+   echo "<h2>Please login first.</h2>\n";
 }
 ?>

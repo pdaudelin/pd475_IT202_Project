@@ -127,4 +127,18 @@ class FidgetType
         $db->close();
         return $result;
     }
+
+    public static function getFidgetTypeCount() {
+        $db = getDB();
+        $query = "SELECT COUNT(*) AS cnt FROM FidgetTypes";
+        if ($stmt = $db->prepare($query)) {
+            $stmt->execute();
+            $stmt->bind_result($cnt);
+            $stmt->fetch();
+            $stmt->close();
+            return (int)$cnt;
+        }
+        return 0;
+    }    
+    
 }
